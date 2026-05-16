@@ -12,6 +12,8 @@ using System.Linq;
 public class SyntyPackageHelper
 {
     static AddAndRemoveRequest Request;
+    static bool s_IsProcessingProjectChange;
+    static bool s_HasProcessedInitialProjectChange;
 
     static SyntyPackageHelper()
     {
@@ -50,9 +52,21 @@ public class SyntyPackageHelper
 
     static void OnProjectChanged()
     {
-        EditorApplication.projectChanged -= OnProjectChanged;
+        if (s_IsProcessingProjectChange || s_HasProcessedInitialProjectChange)
+        {
+            return;
+        }
 
-        ProcessConfigs(LoadSyntyPackageHelperConfigs());
+        s_IsProcessingProjectChange = true;
+        try
+        {
+            ProcessConfigs(LoadSyntyPackageHelperConfigs());
+        }
+        finally
+        {
+            s_HasProcessedInitialProjectChange = true;
+            s_IsProcessingProjectChange = false;
+        }
     }
 
     [MenuItem("Synty/Package Helper/Install Packages")]
@@ -84,7 +98,6 @@ public class SyntyPackageHelper
         }
 
         AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
 
         if(packagesToInstall.Count == 0)
         {
