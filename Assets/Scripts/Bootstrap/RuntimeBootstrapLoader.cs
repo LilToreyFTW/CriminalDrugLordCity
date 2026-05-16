@@ -7,7 +7,7 @@ namespace CriminalDrugLordCity.Bootstrap
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         private static void EnsureBootstrapExists()
         {
-            GameBootstrap existing = Object.FindFirstObjectByType<GameBootstrap>();
+            GameBootstrap existing = Object.FindAnyObjectByType<GameBootstrap>();
             if (existing != null)
             {
                 return;

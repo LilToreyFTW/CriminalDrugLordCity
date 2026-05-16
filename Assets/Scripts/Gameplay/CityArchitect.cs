@@ -8,21 +8,23 @@ namespace CriminalDrugLordCity.Gameplay
         public static void BuildCity(BuildingDefinition[] buildings, GameObject apartmentPrefab, GameObject warehousePrefab)
         {
             GameObject cityRoot = new GameObject("ProceduralCity");
+            string activeMapId = RuntimeGameState.ActiveMap?.id ?? "";
 
             if (buildings == null || buildings.Length == 0)
             {
-                // Fallback residential district
-                for (int i = 0; i < 15; i++)
+                // Varied District Logic
+                int buildingCount = activeMapId.Contains("warehouse") ? 25 : 15;
+                float cityRadius = 500f;
+
+                for (int i = 0; i < buildingCount; i++)
                 {
-                    Vector3 pos = new Vector3(Random.Range(50, 400), 8, Random.Range(50, 400));
-                    InstantiateBuilding(cityRoot.transform, pos, apartmentPrefab, 15f);
-                }
-                
-                // Fallback industrial district
-                for (int i = 0; i < 10; i++)
-                {
-                    Vector3 pos = new Vector3(Random.Range(600, 1000), 8, Random.Range(50, 600));
-                    InstantiateBuilding(cityRoot.transform, pos, warehousePrefab, 20f);
+                    Vector3 pos = new Vector3(Random.Range(-cityRadius, cityRadius), 8, Random.Range(-cityRadius, cityRadius));
+                    GameObject targetPrefab = Random.value > 0.3f ? apartmentPrefab : warehousePrefab;
+                    
+                    if (activeMapId.Contains("mars")) targetPrefab = LoadDLCVariant(targetPrefab.name, "Mars") ?? targetPrefab;
+                    else if (activeMapId.Contains("venus")) targetPrefab = LoadDLCVariant(targetPrefab.name, "Venus") ?? targetPrefab;
+
+                    InstantiateBuilding(cityRoot.transform, pos, targetPrefab, Random.Range(10f, 25f));
                 }
                 return;
             }
@@ -30,8 +32,25 @@ namespace CriminalDrugLordCity.Gameplay
             foreach (var b in buildings)
             {
                 GameObject targetPrefab = b.architectureId.Contains("warehouse") ? warehousePrefab : apartmentPrefab;
+                
+                if (activeMapId.Contains("mars")) targetPrefab = LoadDLCVariant(targetPrefab.name, "Mars") ?? targetPrefab;
+                else if (activeMapId.Contains("venus")) targetPrefab = LoadDLCVariant(targetPrefab.name, "Venus") ?? targetPrefab;
+                
                 InstantiateBuilding(cityRoot.transform, b.position.ToVector3(), targetPrefab, b.scale * 15f);
             }
+        }
+
+        private static GameObject LoadDLCVariant(string baseName, string variantSuffix)
+        {
+            // Simple name-based loading to avoid AssetDatabase outside Editor if possible, 
+            // but since we are procedural in Unity Editor / Runtime with Assets, this works for now.
+            string cleanName = baseName.Replace("(Clone)", "").Trim();
+            string path = "Assets/CriminalDrugLordCity/Art/Prefabs/" + cleanName + "_" + variantSuffix + ".prefab";
+            #if UNITY_EDITOR
+            var prefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>(path);
+            if (prefab != null) return prefab;
+            #endif
+            return null; 
         }
 
         private static void InstantiateBuilding(Transform parent, Vector3 position, GameObject prefab, float scale)

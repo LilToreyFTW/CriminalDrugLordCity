@@ -51,7 +51,12 @@ namespace CriminalDrugLordCity.Gameplay
             {
                 isFirstPerson = !isFirstPerson;
             }
-        }
+
+            if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Tab))
+            {
+                if (PhoneManager.Instance != null) PhoneManager.Instance.TogglePhone();
+            }
+}
 
         private void HandleShooting()
         {

@@ -4,62 +4,47 @@
     "title": "The First Deal",
     "description": "Welcome to the city. First, you need some heat.",
     "objectives": [
-      {
-        "description": "Reach the Arsenal Room",
-        "type": 0,
-        "targetPosition": [120, 8, 100],
-        "isCompleted": false
-      },
-      {
-        "description": "Equip a Street Pistol",
-        "type": 2,
-        "targetId": "pistol-01",
-        "isCompleted": false
-      }
+      { "description": "Reach the Arsenal Room", "type": 0, "targetPosition": [120, 8, 100], "isCompleted": false },
+      { "description": "Equip a Street Pistol", "type": 2, "targetId": "pistol-01", "isCompleted": false }
     ],
-    "cashReward": 500,
-    "respectReward": 10,
-    "targetMapId": "metro-city",
-    "isCompleted": false
+    "cashReward": 500, "respectReward": 10, "targetMapId": "metro-city", "isCompleted": false
   },
   {
     "id": "m-02",
     "title": "Warehouse Heat",
-    "description": "The Autumn Cartel is moving in on our territory. Clear them out.",
+    "description": "The Autumn Cartel is moving in. Clear them out.",
     "objectives": [
-      {
-        "description": "Reach the Warehouse Sprawl",
-        "type": 0,
-        "targetPosition": [0, 0, 15],
-        "isCompleted": false
-      },
-      {
-        "description": "Eliminate the Thugs",
-        "type": 1,
-        "targetId": "thug-boss",
-        "isCompleted": false
-      }
+      { "description": "Reach the Warehouse Sprawl", "type": 0, "targetPosition": [0, 0, 15], "isCompleted": false },
+      { "description": "Eliminate the Thugs", "type": 1, "targetId": "thug-boss", "isCompleted": false }
     ],
-    "cashReward": 2500,
-    "respectReward": 50,
-    "targetMapId": "warehouse-sprawl",
-    "isCompleted": false
+    "cashReward": 2500, "respectReward": 50, "targetMapId": "warehouse-sprawl", "isCompleted": false
   },
   {
     "id": "m-03",
     "title": "Red Planet Grift",
     "description": "The Mars colony needs a new leader. Show them who's boss.",
     "objectives": [
-      {
-        "description": "Reach the Refinery Yard",
-        "type": 0,
-        "targetPosition": [300, 10, 300],
-        "isCompleted": false
-      }
+      { "description": "Reach the Refinery Yard", "type": 0, "targetPosition": [300, 10, 300], "isCompleted": false }
     ],
-    "cashReward": 10000,
-    "respectReward": 200,
-    "targetMapId": "mars-refinery-basin",
-    "isCompleted": false
+    "cashReward": 10000, "respectReward": 200, "targetMapId": "mars-refinery-basin", "isCompleted": false
+  },
+  {
+    "id": "m-04",
+    "title": "Venusian Luxury",
+    "description": "High stakes in the cloud city. Deliver the package.",
+    "objectives": [
+      { "description": "Deliver Cargo to Cloudline", "type": 3, "targetId": "cloudline-drop", "isCompleted": false }
+    ],
+    "cashReward": 50000, "respectReward": 500, "targetMapId": "cloudline-dealership-row", "isCompleted": false
+  },
+  {
+    "id": "m-05",
+    "title": "Radio Silence",
+    "description": "Rebuild the shattered relay tower to communicate off-world.",
+    "objectives": [
+      { "description": "Secure the Relay Tower", "type": 0, "targetPosition": [500, 50, 500], "isCompleted": false },
+      { "description": "Defend the Station", "type": 1, "targetId": "guard-leader", "isCompleted": false }
+    ],
+    "cashReward": 100000, "respectReward": 1000, "targetMapId": "relay-tower-wastes", "isCompleted": false
   }
 ]

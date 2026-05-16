@@ -7,7 +7,24 @@ namespace CriminalDrugLordCity.Gameplay
 {
     public sealed class CrimHUD : MonoBehaviour
     {
-        [Header("UI References")]
+        public static CrimHUD Instance { get; private set; }
+
+        private void Awake()
+        {
+            Instance = this;
+        }
+
+        public void UpdateMissionText()
+        {
+            if (MissionManager.Instance != null && MissionManager.Instance.activeMission != null)
+            {
+                if (missionTitleText != null) missionTitleText.text = MissionManager.Instance.activeMission.title;
+                var currentObjective = MissionManager.Instance.activeMission.objectives.Find(o => !o.isCompleted);
+                if (objectiveDescText != null && currentObjective != null) 
+                    objectiveDescText.text = currentObjective.description;
+            }
+        }
+[Header("UI References")]
         public TextMeshProUGUI cashText;
         public TextMeshProUGUI weaponText;
         public TextMeshProUGUI respectText;

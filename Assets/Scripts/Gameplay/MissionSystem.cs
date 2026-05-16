@@ -101,6 +101,10 @@ namespace CriminalDrugLordCity.Gameplay
         {
             if (activeMission == null || index >= activeMission.objectives.Count) return;
             activeMission.objectives[index].isCompleted = true;
+            
+            // HUD Update
+            if (CrimHUD.Instance != null) CrimHUD.Instance.UpdateMissionText();
+            
             CheckMissionCompletion();
         }
 
@@ -111,9 +115,31 @@ namespace CriminalDrugLordCity.Gameplay
                 activeMission.isCompleted = true;
                 RuntimeGameState.PlayerState.Cash += activeMission.cashReward;
                 RuntimeGameState.PlayerState.Respect += activeMission.respectReward;
+                
+                // Add Empire XP
+                if (ProgressionManager.Instance != null) 
+                    ProgressionManager.Instance.AddXP(activeMission.respectReward * 10);
+
                 Debug.Log("Mission Completed: " + activeMission.title);
                 activeMission = null;
+                
+                // Start next mission if available
+                StartMissionByIndex(availableMissions.FindIndex(m => !m.isCompleted));
             }
         }
-    }
+
+        private void StartMissionByIndex(int index)
+        {
+            if (index >= 0 && index < availableMissions.Count)
+            {
+                activeMission = availableMissions[index];
+                if (activeMission != null)
+                {
+                    Debug.Log("Next Mission Started: " + activeMission.title);
+                    if (PhoneManager.Instance != null) 
+                        PhoneManager.Instance.TravelTo(activeMission.targetMapId);
+                }
+            }
+        }
+}
 }

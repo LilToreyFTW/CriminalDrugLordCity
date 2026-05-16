@@ -130,10 +130,31 @@ NpcSpawner.SpawnPolice(policePrefab, 5);
             return File.Exists(path) ? File.ReadAllText(path) : string.Empty;
         }
 
-        private void EnsureSceneScaffold()
+        public void LoadMap(string mapId)
         {
-            if (Camera.main == null)
+            string path = Path.Combine(Application.streamingAssetsPath, "maps", mapId + ".json");
+            if (File.Exists(path))
             {
+                string json = File.ReadAllText(path);
+                MapDefinition map = JsonUtility.FromJson<MapDefinition>(json);
+                RuntimeGameState.ActiveMap = map;
+                
+                // Clear existing world
+                GameObject oldCity = GameObject.Find("ProceduralCity");
+                if (oldCity != null) Destroy(oldCity);
+                GameObject oldTerrain = GameObject.Find("MapTerrain");
+                if (oldTerrain != null) Destroy(oldTerrain);
+
+                // Build new world
+                TerrainGenerator.Build(map, terrainMaterial);
+                CityArchitect.BuildCity(map.cityBuildings, apartmentPrefab, warehousePrefab);
+            }
+        }
+
+        private void EnsureSceneScaffold()
+{
+            if (Camera.main == null)
+{
                 GameObject cameraObject = new GameObject("Main Camera");
                 cameraObject.tag = "MainCamera";
                 Camera cameraComponent = cameraObject.AddComponent<Camera>();
