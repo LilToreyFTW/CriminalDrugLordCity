@@ -1,0 +1,28 @@
+{
+    "asset": "cdb88aa3e2bc9104caf92df0199d9b13",
+    "fileName": "019e328c-39c1-7d33-9a2b-663729881dff.png",
+    "prompt": "Concept art of a modern black luxury sedan, high-poly vehicle design, isolated on white background, photorealistic gritty crime style, 3/4 view.",
+    "negativePrompt": "",
+    "model": "gpt-image-1-5",
+    "modelName": "GPT Image 1.5",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

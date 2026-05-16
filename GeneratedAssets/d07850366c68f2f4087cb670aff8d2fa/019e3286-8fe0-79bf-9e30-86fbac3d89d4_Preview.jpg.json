@@ -1,0 +1,12 @@
+{
+    "asset": "d07850366c68f2f4087cb670aff8d2fa",
+    "fileName": "019e3286-8fe0-79bf-9e30-86fbac3d89d4_Preview.jpg",
+    "prompt": "4K photorealistic weathered red brick wall texture, high-detail old mortar, industrial gritty crime game style.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1746913427,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

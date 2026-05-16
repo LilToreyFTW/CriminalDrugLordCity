@@ -1,0 +1,23 @@
+{
+    "asset": "9b8de5a445d7ddf4abd215475e2804b9",
+    "fileName": "019e328f-09a1-7cbe-97d3-5792d7a5eb7f.glb",
+    "prompt": "High-poly ultra-detailed 3D model of a tactical pistol, based on the reference image. High-fidelity geometry.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "e1b40e7a6191e6d4f95308d84a41429b",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

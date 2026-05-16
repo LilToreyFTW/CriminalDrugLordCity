@@ -1,0 +1,12 @@
+{
+    "asset": "0a877c133ac06f74fb833ea3f52e4005",
+    "fileName": "019e3268-eea6-7cd0-853f-8455aa12b6b0_Preview.png",
+    "prompt": "Dirty concrete sidewalk texture, tileable, stylized gritty urban style, light gray, subtle cracks, no photorealism.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1586684607,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

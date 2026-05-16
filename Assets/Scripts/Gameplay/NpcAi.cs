@@ -67,4 +67,31 @@ namespace CriminalDrugLordCity.Gameplay
             }
         }
     }
+
+    [RequireComponent(typeof(NavMeshAgent))]
+    public class ThugAi : MonoBehaviour
+    {
+        public float detectRange = 20f;
+        public float attackRange = 10f;
+        private NavMeshAgent _agent;
+        private Transform _player;
+
+        private void Start()
+        {
+            _agent = GetComponent<NavMeshAgent>();
+            var playerObj = GameObject.FindWithTag("Player");
+            if (playerObj != null) _player = playerObj.transform;
+        }
+
+        private void Update()
+        {
+            if (_player == null) return;
+
+            float dist = Vector3.Distance(transform.position, _player.position);
+            if (dist < detectRange)
+            {
+                _agent.SetDestination(_player.position);
+            }
+        }
+    }
 }

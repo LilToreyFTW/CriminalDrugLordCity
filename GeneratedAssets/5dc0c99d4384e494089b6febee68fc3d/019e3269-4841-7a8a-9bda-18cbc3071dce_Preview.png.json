@@ -1,0 +1,12 @@
+{
+    "asset": "5dc0c99d4384e494089b6febee68fc3d",
+    "fileName": "019e3269-4841-7a8a-9bda-18cbc3071dce_Preview.png",
+    "prompt": "Plywood texture, tileable, stylized gritty urban style, light brown wood grain, no photorealism.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1803613891,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

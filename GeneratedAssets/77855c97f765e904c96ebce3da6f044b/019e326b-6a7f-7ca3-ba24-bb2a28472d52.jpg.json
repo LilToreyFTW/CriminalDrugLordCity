@@ -1,0 +1,28 @@
+{
+    "asset": "77855c97f765e904c96ebce3da6f044b",
+    "fileName": "019e326b-6a7f-7ca3-ba24-bb2a28472d52.jpg",
+    "prompt": "Criminal game HUD mockup, money counter with dollar sign, heat meter, minimalist gritty style, dark gray and neon orange, UI icon set.",
+    "negativePrompt": "",
+    "model": "game-ui-essentials-2",
+    "modelName": "Game UI Essentials 2.0",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 2048,
+        "height": 2048
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

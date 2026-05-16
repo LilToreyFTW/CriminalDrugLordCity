@@ -14,6 +14,10 @@ namespace CriminalDrugLordCity.Gameplay
         public TextMeshProUGUI wantedText;
         public Image healthBar;
 
+        [Header("Mission UI")]
+        public TextMeshProUGUI missionTitleText;
+        public TextMeshProUGUI objectiveDescText;
+
         private void Update()
         {
             if (RuntimeGameState.PlayerState == null) return;
@@ -25,8 +29,17 @@ namespace CriminalDrugLordCity.Gameplay
             if (respectText != null) respectText.text = "RESPECT: " + state.Respect;
             if (healthBar != null) healthBar.fillAmount = state.Health / 100f;
 
-            if (wantedText != null)
+            // Mission Display
+            if (MissionManager.Instance != null && MissionManager.Instance.activeMission != null)
             {
+                if (missionTitleText != null) missionTitleText.text = MissionManager.Instance.activeMission.title;
+                var currentObjective = MissionManager.Instance.activeMission.objectives.Find(o => !o.isCompleted);
+                if (objectiveDescText != null && currentObjective != null) 
+                    objectiveDescText.text = currentObjective.description;
+            }
+
+            if (wantedText != null)
+{
                 wantedText.text = WantedSystem.WantedLevel > 0 ? "WANTED: " + new string('*', WantedSystem.WantedLevel) : "";
                 wantedText.color = Color.yellow;
             }

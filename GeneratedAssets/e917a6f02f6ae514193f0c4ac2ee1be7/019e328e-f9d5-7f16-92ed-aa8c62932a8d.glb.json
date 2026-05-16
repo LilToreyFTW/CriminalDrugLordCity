@@ -1,0 +1,23 @@
+{
+    "asset": "e917a6f02f6ae514193f0c4ac2ee1be7",
+    "fileName": "019e328e-f9d5-7f16-92ed-aa8c62932a8d.glb",
+    "prompt": "High-poly ultra-detailed 3D model of an industrial warehouse building, based on the reference image. High-fidelity geometry.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "ee419311a9596384786ac71b8c43c22f",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

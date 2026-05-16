@@ -1,0 +1,12 @@
+{
+    "asset": "e956b34e6d3c2534f9f75235a9633184",
+    "fileName": "019e327b-2098-7522-a3dc-5e1128900d3c_Preview.png",
+    "prompt": "Red dusty Mars soil texture, tileable, stylized gritty industrial crime game style, rocky and dry, no photorealism.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1992906138,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

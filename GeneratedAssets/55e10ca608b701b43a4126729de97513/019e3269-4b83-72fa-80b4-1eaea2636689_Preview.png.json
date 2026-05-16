@@ -1,0 +1,12 @@
+{
+    "asset": "55e10ca608b701b43a4126729de97513",
+    "fileName": "019e3269-4b83-72fa-80b4-1eaea2636689_Preview.png",
+    "prompt": "Cardboard box texture, tileable, stylized gritty urban style, brown paper texture, no photorealism.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1632055028,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

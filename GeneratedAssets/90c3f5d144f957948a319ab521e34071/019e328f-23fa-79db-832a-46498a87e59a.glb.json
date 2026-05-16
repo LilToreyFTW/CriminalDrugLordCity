@@ -1,0 +1,23 @@
+{
+    "asset": "90c3f5d144f957948a319ab521e34071",
+    "fileName": "019e328f-23fa-79db-832a-46498a87e59a.glb",
+    "prompt": "High-poly ultra-detailed 3D character mesh of a criminal drug lord in a suit, based on the provided reference image. High-fidelity geometry.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "355f8083cf6d83744b3e5adc2f4bfe36",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

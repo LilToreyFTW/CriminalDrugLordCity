@@ -1,0 +1,12 @@
+{
+    "asset": "398c82e3cff99ab4d9a4dbcc188bacb2",
+    "fileName": "019e3286-9072-7861-bac2-213d6b068490_Preview.jpg",
+    "prompt": "4K high-detail industrial concrete texture, dirty and weathered, photorealistic gritty urban style.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 950132926,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

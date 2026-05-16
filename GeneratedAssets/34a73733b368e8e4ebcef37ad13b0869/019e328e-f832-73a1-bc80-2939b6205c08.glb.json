@@ -1,0 +1,23 @@
+{
+    "asset": "34a73733b368e8e4ebcef37ad13b0869",
+    "fileName": "019e328e-f832-73a1-bc80-2939b6205c08.glb",
+    "prompt": "High-poly ultra-detailed 3D model of a modern luxury sedan, based on the reference image. High-fidelity geometry.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "cdb88aa3e2bc9104caf92df0199d9b13",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

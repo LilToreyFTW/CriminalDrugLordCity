@@ -51,8 +51,16 @@ namespace CriminalDrugLordCity.Bootstrap
             RuntimeGameState.SeasonalDlcs = dlcList;
             RuntimeGameState.PlayerState = new PlayerRuntimeState();
 
+            // Initialize Managers
+            if (FindAnyObjectByType<DlcManager>() == null)
+            {
+                var dlcManager = gameObject.AddComponent<DlcManager>();
+                dlcManager.activeDlcs.AddRange(dlcList);
+            }
+            if (FindAnyObjectByType<MissionManager>() == null) gameObject.AddComponent<MissionManager>();
+
             TerrainGenerator.Build(map, terrainMaterial);
-            ArsenalRoomBuilder.Build(map.arsenalRoom, propMaterial, gunPrefab);
+ArsenalRoomBuilder.Build(map.arsenalRoom, propMaterial, gunPrefab);
             VehicleSpawnBuilder.Build(map.vehicleSpawns, propMaterial, carPrefab);
             PlayerBuilder.Build(map.spawnPoint, propMaterial, playerPrefab, bulletPrefab, muzzleFlashPrefab);
             DealershipBuilder.Build(new Vector3(300, 8, 300), dealershipPrefab);

@@ -1,0 +1,12 @@
+{
+    "asset": "b3ce36dd19d6a4d498795d6de337515d",
+    "fileName": "019e327b-20a7-759b-b49d-f25e7dc9640b_Preview.png",
+    "prompt": "Sleek coated Venus colony metal wall texture, tileable, stylized sci-fi gritty crime game style, dark teal and neon yellow accents, no photorealism.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 2099271234,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

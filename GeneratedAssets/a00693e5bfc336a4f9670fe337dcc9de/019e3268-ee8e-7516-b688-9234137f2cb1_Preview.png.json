@@ -1,0 +1,12 @@
+{
+    "asset": "a00693e5bfc336a4f9670fe337dcc9de",
+    "fileName": "019e3268-ee8e-7516-b688-9234137f2cb1_Preview.png",
+    "prompt": "Rusty metal plate texture, tileable, stylized gritty industrial style, orange rust on dark steel, no photorealism.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 921754682,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

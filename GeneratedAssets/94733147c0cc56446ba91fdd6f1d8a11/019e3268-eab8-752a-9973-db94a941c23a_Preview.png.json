@@ -1,0 +1,12 @@
+{
+    "asset": "94733147c0cc56446ba91fdd6f1d8a11",
+    "fileName": "019e3268-eab8-752a-9973-db94a941c23a_Preview.png",
+    "prompt": "Faded red brick wall texture, tileable, stylized gritty urban style, old mortar, no photorealism.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1854583686,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

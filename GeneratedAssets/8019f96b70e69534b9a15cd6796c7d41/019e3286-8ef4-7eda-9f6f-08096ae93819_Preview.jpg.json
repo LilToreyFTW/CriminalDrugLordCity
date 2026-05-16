@@ -1,0 +1,12 @@
+{
+    "asset": "8019f96b70e69534b9a15cd6796c7d41",
+    "fileName": "019e3286-8ef4-7eda-9f6f-08096ae93819_Preview.jpg",
+    "prompt": "4K high-detail cracked urban asphalt texture, photorealistic gritty crime style, deep blacks, subtle oil stains, high-resolution weathering.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 848539447,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

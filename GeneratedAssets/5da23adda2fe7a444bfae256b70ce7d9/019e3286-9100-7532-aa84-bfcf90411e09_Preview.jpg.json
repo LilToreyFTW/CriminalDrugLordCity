@@ -1,0 +1,12 @@
+{
+    "asset": "5da23adda2fe7a444bfae256b70ce7d9",
+    "fileName": "019e3286-9100-7532-aa84-bfcf90411e09_Preview.jpg",
+    "prompt": "4K rusted corrugated metal texture, high-detail industrial decay, photorealistic gritty crime game style.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1411298602,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

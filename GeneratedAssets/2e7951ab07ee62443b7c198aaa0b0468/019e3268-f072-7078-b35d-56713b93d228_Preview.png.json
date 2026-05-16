@@ -1,0 +1,12 @@
+{
+    "asset": "2e7951ab07ee62443b7c198aaa0b0468",
+    "fileName": "019e3268-f072-7078-b35d-56713b93d228_Preview.png",
+    "prompt": "Cracked urban asphalt texture, top-down, tileable, stylized gritty low-poly crime game style, dark gray, subtle oil stains, no photorealism.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 595929350,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}
