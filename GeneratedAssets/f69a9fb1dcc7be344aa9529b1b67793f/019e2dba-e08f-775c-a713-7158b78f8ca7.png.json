@@ -1,0 +1,28 @@
+{
+    "asset": "f69a9fb1dcc7be344aa9529b1b67793f",
+    "fileName": "019e2dba-e08f-775c-a713-7158b78f8ca7.png",
+    "prompt": "A sleek, black luxury sedan for a crime game 'Criminal Drug Lord City'. Realistic textures, high-end look, 3D perspective.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

@@ -1,0 +1,28 @@
+{
+    "asset": "956d0b9c70b56274a837c83fafd63566",
+    "fileName": "019e2dd0-4267-7c8c-8038-3f7331f87d1e.png",
+    "prompt": "A standard police officer character for 'Criminal Drug Lord City'. Blue uniform, badge, tactical gear, standing posture. Isolated on white background. 3D perspective.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

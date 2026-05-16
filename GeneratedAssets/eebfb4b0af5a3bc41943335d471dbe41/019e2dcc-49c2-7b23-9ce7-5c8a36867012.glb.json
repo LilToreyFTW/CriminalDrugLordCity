@@ -1,0 +1,23 @@
+{
+    "asset": "eebfb4b0af5a3bc41943335d471dbe41",
+    "fileName": "019e2dcc-49c2-7b23-9ce7-5c8a36867012.glb",
+    "prompt": "A high-detail 3D mesh of a gritty urban thug. High resolution topology.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "8b409cf3bc1c702419653370bdcca786",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

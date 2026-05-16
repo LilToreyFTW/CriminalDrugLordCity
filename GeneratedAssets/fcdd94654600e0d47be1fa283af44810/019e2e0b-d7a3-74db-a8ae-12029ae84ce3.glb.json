@@ -1,0 +1,23 @@
+{
+    "asset": "fcdd94654600e0d47be1fa283af44810",
+    "fileName": "019e2e0b-d7a3-74db-a8ae-12029ae84ce3.glb",
+    "prompt": "A high-detail 3D mesh of a industrial warehouse building. Gritty metal textures. High resolution geometry.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "605ffee1b8aae1a4696c34e412e68ec2",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

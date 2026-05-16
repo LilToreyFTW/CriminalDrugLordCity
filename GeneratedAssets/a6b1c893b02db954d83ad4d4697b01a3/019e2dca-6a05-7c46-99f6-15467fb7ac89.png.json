@@ -1,0 +1,28 @@
+{
+    "asset": "a6b1c893b02db954d83ad4d4697b01a3",
+    "fileName": "019e2dca-6a05-7c46-99f6-15467fb7ac89.png",
+    "prompt": "A typical city resident for 'Criminal Drug Lord City'. Casual clothes, walking pose, realistic urban style. Isolated on white background. 3D perspective.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

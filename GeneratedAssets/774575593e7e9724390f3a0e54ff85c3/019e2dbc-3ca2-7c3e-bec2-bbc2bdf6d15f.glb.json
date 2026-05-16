@@ -1,0 +1,23 @@
+{
+    "asset": "774575593e7e9724390f3a0e54ff85c3",
+    "fileName": "019e2dbc-3ca2-7c3e-bec2-bbc2bdf6d15f.glb",
+    "prompt": "A high-detail 3D mesh of a tactical pistol. Realistic geometry.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "b93af9fff10e3f8429d2e9a665f4b353",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

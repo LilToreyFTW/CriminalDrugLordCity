@@ -1,0 +1,23 @@
+{
+    "asset": "6e8ca5b1d0da98d42a15b3b0f7a6886b",
+    "fileName": "019e2dc7-6503-7fa9-8271-328b42435507.glb",
+    "prompt": "A high-detail 3D mesh of a gritty urban apartment building. High resolution geometry.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "53035cbefabfa0a49999762ab934f973",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

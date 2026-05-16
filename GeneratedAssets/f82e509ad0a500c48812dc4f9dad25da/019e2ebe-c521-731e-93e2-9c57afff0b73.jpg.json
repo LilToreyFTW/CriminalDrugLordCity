@@ -1,0 +1,28 @@
+{
+    "asset": "f82e509ad0a500c48812dc4f9dad25da",
+    "fileName": "019e2ebe-c521-731e-93e2-9c57afff0b73.jpg",
+    "prompt": "A seamless, high-detail dark asphalt road texture for a city, realistic urban style, top-down view, tileable.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

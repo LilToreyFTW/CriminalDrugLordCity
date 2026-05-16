@@ -1,0 +1,1707 @@
+{
+    "id": "metro-city",
+    "displayName": "Metro City 4096x2056",
+    "width": 4096,
+    "height": 2056,
+    "terrainAmplitude": 4.5,
+    "spawnPoint": [
+        1800.0,
+        109.39997100830078,
+        820.0
+    ],
+    "arsenalRoom": {
+        "position": [
+            120.0,
+            8.0,
+            100.0
+        ],
+        "size": [
+            26.0,
+            12.0,
+            18.0
+        ],
+        "pickups": [
+            {
+                "id": "pistol-01",
+                "label": "Street Pistol",
+                "type": 0,
+                "position": [
+                    113.0,
+                    9.5,
+                    95.0
+                ],
+                "color": [
+                    0.8500000238418579,
+                    0.8500000238418579,
+                    0.20000000298023225
+                ]
+            },
+            {
+                "id": "smg-01",
+                "label": "Corner SMG",
+                "type": 1,
+                "position": [
+                    120.0,
+                    9.5,
+                    95.0
+                ],
+                "color": [
+                    0.25,
+                    0.800000011920929,
+                    0.949999988079071
+                ]
+            },
+            {
+                "id": "shotgun-01",
+                "label": "Raid Shotgun",
+                "type": 2,
+                "position": [
+                    127.0,
+                    9.5,
+                    95.0
+                ],
+                "color": [
+                    0.949999988079071,
+                    0.44999998807907107,
+                    0.2199999988079071
+                ]
+            }
+        ]
+    },
+    "vehicleSpawns": [
+        {
+            "id": "npc-sedan-01",
+            "archetype": "Sedan",
+            "position": [
+                160.0,
+                8.0,
+                130.0
+            ],
+            "color": [
+                0.7799999713897705,
+                0.15000000596046449,
+                0.15000000596046449
+            ]
+        },
+        {
+            "id": "npc-suv-02",
+            "archetype": "SUV",
+            "position": [
+                200.0,
+                8.0,
+                190.0
+            ],
+            "color": [
+                0.15000000596046449,
+                0.15000000596046449,
+                0.15000000596046449
+            ]
+        },
+        {
+            "id": "npc-coupe-03",
+            "archetype": "Coupe",
+            "position": [
+                240.0,
+                8.0,
+                250.0
+            ],
+            "color": [
+                0.10000000149011612,
+                0.30000001192092898,
+                0.800000011920929
+            ]
+        }
+    ],
+    "runtimeOffsets": {
+        "componentToWorld": 400,
+        "owningGameInstance": 400,
+        "persistentLevel": 48,
+        "localPlayers": 56,
+        "playerController": 48,
+        "playerState": 664,
+        "playerNamePrivate": 880,
+        "owningActor": 152,
+        "maxPacket": 160,
+        "acknowledgedPawn": 792,
+        "playerCameraManager": 816,
+        "cameraCachePrivate": 8736,
+        "pov": 16,
+        "location": 0,
+        "rotation": 24,
+        "fov": 48,
+        "mesh": 760,
+        "rootComponent": 400,
+        "relativeLocation": 344,
+        "componentVelocity": 416
+    },
+    "cityBuildings": [
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1800.0,
+                109.39997100830078,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1800.0,
+                109.39997100830078,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1820.0,
+                109.39997100830078,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1820.0,
+                109.39997100830078,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1840.0,
+                109.39997100830078,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1840.0,
+                109.39997100830078,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1860.0,
+                109.39997100830078,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1860.0,
+                109.39997100830078,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1800.0,
+                58.10520935058594,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1800.0,
+                58.10520935058594,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1820.0,
+                58.10520935058594,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1820.0,
+                58.10520935058594,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1840.0,
+                58.10520935058594,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1840.0,
+                58.10520935058594,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1860.0,
+                58.10520935058594,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1860.0,
+                58.10520935058594,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1800.0,
+                49.63729476928711,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1800.0,
+                49.63729476928711,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1820.0,
+                49.63729476928711,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1820.0,
+                49.63729476928711,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1840.0,
+                49.63729476928711,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1840.0,
+                49.63729476928711,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1860.0,
+                49.63729476928711,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1860.0,
+                49.63729476928711,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1900.0,
+                99.21060943603516,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1900.0,
+                99.21060943603516,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1920.0,
+                99.21060943603516,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1920.0,
+                99.21060943603516,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1940.0,
+                99.21060943603516,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1940.0,
+                99.21060943603516,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1960.0,
+                99.21060943603516,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1960.0,
+                99.21060943603516,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1900.0,
+                35.97726821899414,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1900.0,
+                35.97726821899414,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1920.0,
+                35.97726821899414,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1920.0,
+                35.97726821899414,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1940.0,
+                35.97726821899414,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1940.0,
+                35.97726821899414,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1960.0,
+                35.97726821899414,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                1960.0,
+                35.97726821899414,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2000.0,
+                97.10150909423828,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2000.0,
+                97.10150909423828,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2020.0,
+                97.10150909423828,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2020.0,
+                97.10150909423828,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2040.0,
+                97.10150909423828,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2040.0,
+                97.10150909423828,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2060.0,
+                97.10150909423828,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2060.0,
+                97.10150909423828,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2000.0,
+                30.945852279663087,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2000.0,
+                30.945852279663087,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2020.0,
+                30.945852279663087,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2020.0,
+                30.945852279663087,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2040.0,
+                30.945852279663087,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2040.0,
+                30.945852279663087,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2060.0,
+                30.945852279663087,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2060.0,
+                30.945852279663087,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2000.0,
+                28.214832305908204,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2000.0,
+                28.214832305908204,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2020.0,
+                28.214832305908204,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2020.0,
+                28.214832305908204,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2040.0,
+                28.214832305908204,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2040.0,
+                28.214832305908204,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2060.0,
+                28.214832305908204,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2060.0,
+                28.214832305908204,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2100.0,
+                96.48432922363281,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2100.0,
+                96.48432922363281,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2120.0,
+                96.48432922363281,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2120.0,
+                96.48432922363281,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2140.0,
+                96.48432922363281,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2140.0,
+                96.48432922363281,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2160.0,
+                96.48432922363281,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2160.0,
+                96.48432922363281,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2100.0,
+                30.243358612060548,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2100.0,
+                30.243358612060548,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2120.0,
+                30.243358612060548,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2120.0,
+                30.243358612060548,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2140.0,
+                30.243358612060548,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2140.0,
+                30.243358612060548,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2160.0,
+                30.243358612060548,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2160.0,
+                30.243358612060548,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2100.0,
+                27.285093307495118,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2100.0,
+                27.285093307495118,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2120.0,
+                27.285093307495118,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2120.0,
+                27.285093307495118,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2140.0,
+                27.285093307495118,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2140.0,
+                27.285093307495118,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2160.0,
+                27.285093307495118,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2160.0,
+                27.285093307495118,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2200.0,
+                102.87165832519531,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2200.0,
+                102.87165832519531,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2220.0,
+                102.87165832519531,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2220.0,
+                102.87165832519531,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2240.0,
+                102.87165832519531,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2240.0,
+                102.87165832519531,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2260.0,
+                102.87165832519531,
+                820.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2260.0,
+                102.87165832519531,
+                780.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2200.0,
+                35.616634368896487,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2200.0,
+                35.616634368896487,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2220.0,
+                35.616634368896487,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2220.0,
+                35.616634368896487,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2240.0,
+                35.616634368896487,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2240.0,
+                35.616634368896487,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2260.0,
+                35.616634368896487,
+                970.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2260.0,
+                35.616634368896487,
+                930.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2200.0,
+                31.017013549804689,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2200.0,
+                31.017013549804689,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2220.0,
+                31.017013549804689,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2220.0,
+                31.017013549804689,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2240.0,
+                31.017013549804689,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2240.0,
+                31.017013549804689,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2260.0,
+                31.017013549804689,
+                1120.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-scene",
+            "position": [
+                2260.0,
+                31.017013549804689,
+                1080.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": 1.0
+        }
+    ]
+}

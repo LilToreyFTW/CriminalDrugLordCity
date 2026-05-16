@@ -1,0 +1,12 @@
+{
+    "asset": "e25e5ca0761d283458fe678110e1e23a",
+    "fileName": "019e2ebc-d1ec-7fb2-aa69-cc94d125ce2d_Preview.jpg",
+    "prompt": "A seamless, high-detail dark asphalt road texture for a city, realistic urban style, top-down view, 4k resolution, tileable.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1451890771,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

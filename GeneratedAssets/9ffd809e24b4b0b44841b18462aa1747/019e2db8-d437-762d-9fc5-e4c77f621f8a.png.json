@@ -1,0 +1,28 @@
+{
+    "asset": "9ffd809e24b4b0b44841b18462aa1747",
+    "fileName": "019e2db8-d437-762d-9fc5-e4c77f621f8a.png",
+    "prompt": "A gritty, high-detail character for a crime game called 'Criminal Drug Lord City'. A male character in a stylish suit, holding a briefcase, with a stern face, visible arms, legs, torso, feet, and hands. Cinematic lighting, realistic urban background, 8k resolution.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

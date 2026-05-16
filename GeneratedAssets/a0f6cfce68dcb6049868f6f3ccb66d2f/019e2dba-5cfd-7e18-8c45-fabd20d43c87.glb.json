@@ -1,0 +1,23 @@
+{
+    "asset": "a0f6cfce68dcb6049868f6f3ccb66d2f",
+    "fileName": "019e2dba-5cfd-7e18-8c45-fabd20d43c87.glb",
+    "prompt": "A high-detail 3D character mesh of a criminal drug lord in a suit, based on the provided reference image. Full body, including face, arms, legs, torso, feet, and hands. High resolution topology.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "9ffd809e24b4b0b44841b18462aa1747",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

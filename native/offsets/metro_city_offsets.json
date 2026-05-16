@@ -1,0 +1,49 @@
+{
+  "mapId": "metro-city",
+  "terrainWidth": 4096,
+  "terrainHeight": 2056,
+  "terrainHeightFieldOffset": 4096,
+  "roadNetworkOffset": 8192,
+  "arsenalRoomOffset": 12288,
+  "vehicleSpawnOffset": 16384,
+  "runtimeOffsets": {
+    "componentToWorld": 400,
+    "owningGameInstance": 400,
+    "persistentLevel": 48,
+    "localPlayers": 56,
+    "playerController": 48,
+    "playerState": 664,
+    "playerNamePrivate": 880,
+    "owningActor": 152,
+    "maxPacket": 160,
+    "acknowledgedPawn": 792,
+    "playerCameraManager": 816,
+    "cameraCachePrivate": 8736,
+    "pov": 16,
+    "location": 0,
+    "rotation": 24,
+    "fov": 48,
+    "mesh": 760,
+    "rootComponent": 400,
+    "relativeLocation": 344,
+    "componentVelocity": 416
+  },
+  "assets": [
+    {
+      "assetId": "player-blockout-male-01",
+      "assetType": "humanoid",
+      "vertexOffset": 20480,
+      "indexOffset": 24576,
+      "materialOffset": 28672,
+      "pivot": [0.0, 0.0, 0.0]
+    },
+    {
+      "assetId": "npc-sedan-01",
+      "assetType": "vehicle",
+      "vertexOffset": 32768,
+      "indexOffset": 36864,
+      "materialOffset": 40960,
+      "pivot": [0.0, 0.0, 0.0]
+    }
+  ]
+}

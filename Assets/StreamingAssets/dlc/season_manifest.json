@@ -1,0 +1,47 @@
+[
+  {
+    "id": "dlc-autumn-cartel",
+    "name": "Autumn Cartel",
+    "season": "Fall",
+    "summary": "Adds a warehouse district, black-market rifle set, and amber seasonal lighting pass.",
+    "addsMaps": ["warehouse-sprawl"],
+    "addsWeapons": ["Black-Market Rifle", "Compact Machine Pistol"],
+    "dateOfRelease": ["Day one release of game"]
+  },
+  {
+    "id": "dlc-winter-freezeout",
+    "name": "Winter Freezeout",
+    "season": "Winter",
+    "summary": "Introduces a snowbound port map, frosted vehicle skins, and icy handling tuning.",
+    "addsMaps": ["frozen-port"],
+    "addsWeapons": ["Suppressed SMG", "Heavy Revolver"],
+    "dateOfRelease": ["12/02/2026"]
+  },
+  {
+    "id": "dlc-rustbelt-space",
+    "name": "Rustbelt Space",
+    "season": "Apocolypse on Mars",
+    "summary": "Builds a red-dust rustbelt district on a Mars colony with scavenger convoys, pressurized refinery yards, and outlaw gun caches hidden inside collapsed habitation blocks.",
+    "addsMaps": ["rustbelt-sanction", "mars-refinery-basin", "low-orbit-scrapyard"],
+    "addsWeapons": ["Suppressed SMG", "Heavy Revolver", "Rail Nailgun", "Compressed Arc Shotgun"],
+    "dateOfRelease": ["06/13/2026"]
+  },
+  {
+    "id": "dlc-live-on-planet-venus-space",
+    "name": "Venus Space Homes",
+    "season": "Venus home corridors and ship landings, ship dealerships",
+    "summary": "Opens a luxury-survival colony on Venus with stacked residential corridors, neon docking towers, ship dealerships, climate-sealed plazas, and black-market firefights beneath stormproof transit rails.",
+    "addsMaps": ["venus-home-corridors", "ship-landing-district", "cloudline-dealership-row"],
+    "addsWeapons": ["Plasma Sidearm", "Thermal Carbine", "Compressed Arc Shotgun", "Mag-Lever Rifle"],
+    "dateOfRelease": ["07/15/2026"]
+  },
+  {
+    "id": "dlc-radio-warriors",
+    "name": "Radio Warriors",
+    "season": "People lost communication leaving Venus to go back and explore mars and they have to create and rebuild a radio tower and find a radio to communicate back and fourth from venus to mars",
+    "summary": "Follows stranded runners who lose long-range contact between Venus and Mars and must recover field radios, rebuild a shattered relay tower, defend broadcast stations, and reopen off-world communication routes across hostile frontier zones.",
+    "addsMaps": ["relay-tower-wastes", "venus-evac-corridor", "mars-signal-frontier"],
+    "addsWeapons": ["Burst Comm Pistol", "Signal Breaker Rifle", "Tower Guard Shotgun", "Relay Spike Launcher"],
+    "dateOfRelease": ["07/28/2026"]
+  }
+]

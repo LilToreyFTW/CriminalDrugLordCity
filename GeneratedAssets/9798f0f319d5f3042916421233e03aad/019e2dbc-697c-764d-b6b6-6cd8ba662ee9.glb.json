@@ -1,0 +1,23 @@
+{
+    "asset": "9798f0f319d5f3042916421233e03aad",
+    "fileName": "019e2dbc-697c-764d-b6b6-6cd8ba662ee9.glb",
+    "prompt": "A high-detail 3D mesh of a black luxury sedan. Realistic geometry.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "f69a9fb1dcc7be344aa9529b1b67793f",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

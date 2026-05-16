@@ -1,0 +1,12 @@
+{
+    "asset": "ed6e75375f2e655429e9434112a4ee01",
+    "fileName": "019e2ebc-d094-70e4-a775-b029b3fecdb7_Preview.jpg",
+    "prompt": "A seamless, vibrant green grass texture for a city park, realistic style, top-down view, 4k resolution, tileable.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 510394489,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

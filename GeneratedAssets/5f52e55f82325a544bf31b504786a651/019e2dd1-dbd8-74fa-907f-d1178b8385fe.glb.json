@@ -1,0 +1,23 @@
+{
+    "asset": "5f52e55f82325a544bf31b504786a651",
+    "fileName": "019e2dd1-dbd8-74fa-907f-d1178b8385fe.glb",
+    "prompt": "A high-detail 3D mesh of a police officer. High resolution topology.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "956d0b9c70b56274a837c83fafd63566",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

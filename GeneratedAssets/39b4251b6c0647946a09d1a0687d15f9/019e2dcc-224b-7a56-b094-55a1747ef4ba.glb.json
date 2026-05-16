@@ -1,0 +1,23 @@
+{
+    "asset": "39b4251b6c0647946a09d1a0687d15f9",
+    "fileName": "019e2dcc-224b-7a56-b094-55a1747ef4ba.glb",
+    "prompt": "A high-detail 3D mesh of a city citizen. High resolution topology.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "a6b1c893b02db954d83ad4d4697b01a3",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

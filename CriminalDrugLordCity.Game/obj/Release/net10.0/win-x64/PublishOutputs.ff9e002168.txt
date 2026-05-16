@@ -1,0 +1,17 @@
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\CriminalDrugLordCity.Game.exe
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\Content\dlc\season_manifest.json
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\Content\maps\metro_city_4096x2056.json
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\CriminalDrugLordCity.Game.dll
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\CriminalDrugLordCity.Game.deps.json
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\CriminalDrugLordCity.Game.runtimeconfig.json
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\CriminalDrugLordCity.Game.pdb
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\OpenTK.Audio.OpenAL.dll
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\OpenTK.Compute.dll
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\OpenTK.Core.dll
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\OpenTK.Graphics.dll
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\OpenTK.Input.dll
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\OpenTK.Mathematics.dll
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\OpenTK.Windowing.Common.dll
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\OpenTK.Windowing.Desktop.dll
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\ghost\Documents\Codex\2026-05-15\hey-yo-codex-let-s-make\CriminalDrugLordCity.Game\bin\Release\net10.0\win-x64\publish\glfw3.dll

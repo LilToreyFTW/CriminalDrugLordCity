@@ -1,0 +1,28 @@
+{
+    "asset": "8b409cf3bc1c702419653370bdcca786",
+    "fileName": "019e2dca-6fef-795d-ac82-df27031a618c.png",
+    "prompt": "A gritty urban thug character for 'Criminal Drug Lord City'. Wearing a hoodie, baggy jeans, standing posture, looking tough. Isolated on white background. 3D perspective.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

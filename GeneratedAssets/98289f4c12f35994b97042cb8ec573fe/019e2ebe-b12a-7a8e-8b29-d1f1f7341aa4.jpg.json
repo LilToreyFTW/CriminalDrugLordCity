@@ -1,0 +1,28 @@
+{
+    "asset": "98289f4c12f35994b97042cb8ec573fe",
+    "fileName": "019e2ebe-b12a-7a8e-8b29-d1f1f7341aa4.jpg",
+    "prompt": "A seamless, gritty brown dirt and gravel texture for urban construction sites, realistic style, top-down view, tileable.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

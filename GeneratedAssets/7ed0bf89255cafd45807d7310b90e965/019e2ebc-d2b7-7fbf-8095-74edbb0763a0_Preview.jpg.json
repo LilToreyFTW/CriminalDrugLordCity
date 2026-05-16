@@ -1,0 +1,12 @@
+{
+    "asset": "7ed0bf89255cafd45807d7310b90e965",
+    "fileName": "019e2ebc-d2b7-7fbf-8095-74edbb0763a0_Preview.jpg",
+    "prompt": "A seamless, gritty brown dirt and gravel texture for urban construction sites, realistic style, top-down view, 4k resolution, tileable.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 917586599,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

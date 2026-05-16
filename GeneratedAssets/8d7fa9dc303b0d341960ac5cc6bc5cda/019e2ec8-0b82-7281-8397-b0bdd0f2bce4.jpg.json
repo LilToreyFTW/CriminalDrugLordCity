@@ -1,0 +1,28 @@
+{
+    "asset": "8d7fa9dc303b0d341960ac5cc6bc5cda",
+    "fileName": "019e2ec8-0b82-7281-8397-b0bdd0f2bce4.jpg",
+    "prompt": "A seamless, high-detail red rocky alien soil texture for Mars, realistic style, top-down view, tileable.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

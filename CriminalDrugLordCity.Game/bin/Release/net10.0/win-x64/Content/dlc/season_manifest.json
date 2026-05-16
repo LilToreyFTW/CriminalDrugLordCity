@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dlc-autumn-cartel",
+    "name": "Autumn Cartel",
+    "season": "Fall",
+    "summary": "Adds a warehouse district, black-market rifle set, and amber seasonal lighting pass.",
+    "addsMaps": ["warehouse-sprawl"],
+    "addsWeapons": ["Black-Market Rifle", "Compact Machine Pistol"]
+  },
+  {
+    "id": "dlc-winter-freezeout",
+    "name": "Winter Freezeout",
+    "season": "Winter",
+    "summary": "Introduces a snowbound port map, frosted vehicle skins, and icy handling tuning.",
+    "addsMaps": ["frozen-port"],
+    "addsWeapons": ["Suppressed SMG", "Heavy Revolver"]
+  }
+]

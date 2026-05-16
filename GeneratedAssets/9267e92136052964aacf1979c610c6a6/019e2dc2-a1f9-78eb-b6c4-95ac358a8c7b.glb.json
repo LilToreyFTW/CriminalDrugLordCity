@@ -1,0 +1,23 @@
+{
+    "asset": "9267e92136052964aacf1979c610c6a6",
+    "fileName": "019e2dc2-a1f9-78eb-b6c4-95ac358a8c7b.glb",
+    "prompt": "A high-detail 3D mesh of a luxury car dealership building. Modern architecture.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "d54facc0d98a9ea499ae38b2bde2a627",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

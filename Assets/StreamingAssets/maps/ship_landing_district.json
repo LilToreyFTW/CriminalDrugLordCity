@@ -1,0 +1,330 @@
+{
+    "id": "ship_landing_district",
+    "displayName": "SHIP LANDING DISTRICT",
+    "width": 4096,
+    "height": 2056,
+    "terrainAmplitude": 5.0,
+    "spawnPoint": [
+        100.0,
+        10.0,
+        100.0
+    ],
+    "arsenalRoom": {
+        "position": [
+            120.0,
+            10.0,
+            120.0
+        ],
+        "size": [
+            20.0,
+            10.0,
+            20.0
+        ],
+        "pickups": []
+    },
+    "vehicleSpawns": [],
+    "runtimeOffsets": {
+        "componentToWorld": 400,
+        "owningGameInstance": 400,
+        "persistentLevel": 48,
+        "localPlayers": 0,
+        "playerController": 48,
+        "playerState": 664,
+        "playerNamePrivate": 0,
+        "owningActor": 0,
+        "maxPacket": 0,
+        "acknowledgedPawn": 0,
+        "playerCameraManager": 0,
+        "cameraCachePrivate": 0,
+        "pov": 0,
+        "location": 0,
+        "rotation": 24,
+        "fov": 0,
+        "mesh": 760,
+        "rootComponent": 0,
+        "relativeLocation": 0,
+        "componentVelocity": 0
+    },
+    "cityBuildings": [
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                949.0,
+                10.0,
+                618.0
+            ],
+            "rotation": [
+                0.0,
+                88.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                1076.0,
+                10.0,
+                358.0
+            ],
+            "rotation": [
+                0.0,
+                84.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-dlc",
+            "position": [
+                834.0,
+                10.0,
+                525.0
+            ],
+            "rotation": [
+                0.0,
+                81.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                887.0,
+                10.0,
+                640.0
+            ],
+            "rotation": [
+                0.0,
+                269.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-dlc",
+            "position": [
+                1024.0,
+                10.0,
+                587.0
+            ],
+            "rotation": [
+                0.0,
+                232.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                980.0,
+                10.0,
+                522.0
+            ],
+            "rotation": [
+                0.0,
+                260.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                1084.0,
+                10.0,
+                359.0
+            ],
+            "rotation": [
+                0.0,
+                324.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                1150.0,
+                10.0,
+                678.0
+            ],
+            "rotation": [
+                0.0,
+                14.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-dlc",
+            "position": [
+                1157.0,
+                10.0,
+                603.0
+            ],
+            "rotation": [
+                0.0,
+                270.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                1024.0,
+                10.0,
+                666.0
+            ],
+            "rotation": [
+                0.0,
+                241.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                986.0,
+                10.0,
+                567.0
+            ],
+            "rotation": [
+                0.0,
+                277.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                1155.0,
+                10.0,
+                651.0
+            ],
+            "rotation": [
+                0.0,
+                72.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                1100.0,
+                10.0,
+                574.0
+            ],
+            "rotation": [
+                0.0,
+                77.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                1051.0,
+                10.0,
+                302.0
+            ],
+            "rotation": [
+                0.0,
+                80.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-dlc",
+            "position": [
+                937.0,
+                10.0,
+                364.0
+            ],
+            "rotation": [
+                0.0,
+                97.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                997.0,
+                10.0,
+                536.0
+            ],
+            "rotation": [
+                0.0,
+                47.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "warehouse-dlc",
+            "position": [
+                951.0,
+                10.0,
+                304.0
+            ],
+            "rotation": [
+                0.0,
+                102.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-dlc",
+            "position": [
+                879.0,
+                10.0,
+                379.0
+            ],
+            "rotation": [
+                0.0,
+                43.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-dlc",
+            "position": [
+                1072.0,
+                10.0,
+                547.0
+            ],
+            "rotation": [
+                0.0,
+                97.0,
+                0.0
+            ],
+            "scale": 1.0
+        },
+        {
+            "architectureId": "apt-dlc",
+            "position": [
+                1046.0,
+                10.0,
+                481.0
+            ],
+            "rotation": [
+                0.0,
+                243.0,
+                0.0
+            ],
+            "scale": 1.0
+        }
+    ]
+}
